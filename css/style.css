@@ -1,0 +1,77 @@
+html{
+    font-family: 'McLaren', cursive;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+nav ul li.active {
+  color: #d5555f!important;
+}
+
+
+.slider .slides li .caption{
+    top:25%;
+}
+
+.slider .indicators{
+  bottom: 50px;
+  z-index: 9;
+}
+
+hr{
+ 	width:10%;
+	margin-left: 45%;
+
+    padding: 0;
+    border: none;
+    border-top: 3px solid #d5555f;
+    color: #d5555f;
+}	
+
+
+
+
+/* ******************************************************
+
+HELPERS
+
+********************************************************/
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-200{
+    margin-top: 200px;
+}
+
+.mb-250{
+    margin-bottom: 250px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.pt-40{
+    padding-top: 40px;
+}
+
+/* ******************************************************
+
+FOOTER
+
+********************************************************/
+
+footer i{
+    margin-right: 10px;
+}
