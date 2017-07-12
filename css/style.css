@@ -1,12 +1,16 @@
 html{
     font-family: 'McLaren', cursive;
+    
 }
 
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    color: #2f2f2f;
 }
+
+
 
   main {
       flex: 1 0 auto;
