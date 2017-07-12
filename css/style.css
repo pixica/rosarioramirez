@@ -6,12 +6,15 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
 
   main {
-    flex: 1 0 auto;
-  }
+      flex: 1 0 auto;
+}
 
+nav{
+    background-color: #000000;
+}
 
 nav ul li.active {
   color: #d5555f!important;
@@ -38,6 +41,16 @@ hr{
 }	
 
 
+/* ******************************************************
+
+FOOTER
+
+********************************************************/
+
+
+footer, .page-footer{
+    background-color: #000000;
+}
 
 
 /* ******************************************************
@@ -58,8 +71,16 @@ HELPERS
     margin-top: 40px;
 }
 
+.mt-100{
+    margin-top: 100px;
+}
+
 .mt-200{
     margin-top: 200px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
 }
 
 .mb-250{
