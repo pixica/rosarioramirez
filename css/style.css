@@ -137,3 +137,11 @@ footer{
 footer i{
     margin-right: 10px;
 }
+
+footer a{
+    color: #ffffff;
+}
+
+footer a:hover{
+    color: #d5555f;
+}
