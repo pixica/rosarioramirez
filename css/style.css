@@ -105,6 +105,10 @@ FOOTER
 
 ********************************************************/
 
+footer{
+    background: #000000 url('../img/back-foot.jpg') top left repeat-x;
+}
+
 footer i{
     margin-right: 10px;
 }
