@@ -44,6 +44,31 @@ hr{
     color: #d5555f;
 }	
 
+hr.ros-aqua{
+    border-top: 3px solid #2fa294;
+    color: #2fa294;
+}
+
+hr.ros-purple{
+    border-top: 3px solid #6e3f6b;
+    color: #6e3f6b;
+}
+
+
+hr.ros-green{
+    border-top: 3px solid #adcb5d;
+    color: #adcb5d;
+}
+
+
+.tit-green{
+    color: #adcb5d;
+}
+
+.tit-purple{
+
+    color: #6e3f6b;
+}
 
 /* ******************************************************
 
