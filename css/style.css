@@ -22,10 +22,21 @@ nav{
 nav ul li.active {
   color: #d5555f!important;
 }
-
-.slider .slides img{
+/*
+.slider .slides {
+    background-color: transparent;
+    margin: 0;
     height: 700px;
 }
+
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-position: top center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+*/
 
 .slider .slides li .caption{
     top:25%;
