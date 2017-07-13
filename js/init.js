@@ -4,7 +4,8 @@
     $('.button-collapse').sideNav();
     $('.slider').slider({
     	interval: 6000,
-        height: 700
+      full_width: true,
+      height:700
     });
 
 

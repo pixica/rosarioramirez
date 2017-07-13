@@ -11,9 +11,8 @@ body {
 }
 
 
-
-  main {
-      flex: 1 0 auto;
+main {
+    flex: 1 0 auto;
 }
 
 nav{
@@ -24,6 +23,9 @@ nav ul li.active {
   color: #d5555f!important;
 }
 
+.slider .slides img{
+    height: 700px;
+}
 
 .slider .slides li .caption{
     top:25%;
@@ -33,6 +35,9 @@ nav ul li.active {
   bottom: 50px;
   z-index: 9;
 }
+
+
+
 
 hr{
  	width:10%;
@@ -144,4 +149,37 @@ footer a{
 
 footer a:hover{
     color: #d5555f;
+}
+
+
+@media only screen and (max-width : 992px) {
+   
+    .mt-200{
+        margin-top: 100px;
+    }
+
+    .mb-250{
+        margin-bottom: 100px;
+    }
+
+}
+
+@media only screen and (max-width : 600px) {
+
+    #index-banner img{
+        
+
+    }
+
+    .mt-200{
+        margin-top: 40px;
+    }
+
+    .mb-250{
+        margin-bottom: 80px;
+    }
+
+    .cuento{
+        margin-bottom: 40px;
+    }
 }
