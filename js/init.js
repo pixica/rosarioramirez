@@ -6,7 +6,8 @@
     	full_width: true
     });*/
     $('.bxslider').bxSlider({
-      mode: 'fade'
+      mode: 'fade',
+      auto: true
     });
 
 
